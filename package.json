@@ -1,0 +1,41 @@
+{
+  "name": "strapi-editor-test",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^21.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "ckeditor-build-with-simple-upload-provider-strapi": "^1.0.7",
+    "ckeditor-iliad": "../ckeditor-iliad",
+    "knex": "<0.20.0",
+    "sqlite3": "latest",
+    "strapi": "3.1.2",
+    "strapi-admin": "3.1.2",
+    "strapi-connector-bookshelf": "3.1.2",
+    "strapi-plugin-content-manager": "3.1.2",
+    "strapi-plugin-content-type-builder": "3.1.2",
+    "strapi-plugin-email": "3.1.2",
+    "strapi-plugin-upload": "3.1.2",
+    "strapi-plugin-users-permissions": "3.1.2",
+    "strapi-utils": "3.1.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f766a44a-1079-4475-960c-38a585f978ef"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

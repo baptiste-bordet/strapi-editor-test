@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "displays",
+  "info": {
+    "name": "display"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "display": {
+      "type": "boolean"
+    }
+  }
+}
